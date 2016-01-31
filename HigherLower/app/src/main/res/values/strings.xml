@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HigherLower</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="levels_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+        <item>Legendary</item>
+    </string-array>
+    <string name="title_activity_play">PlayActivity</string>
+</resources>
