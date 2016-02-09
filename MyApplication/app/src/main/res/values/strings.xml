@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Examen01</string>
+
+    <string name="app_header">Convert my money app</string>
+    <string name="convert_from_label">Converting from:</string>
+    <string name="convert_to_label">Converting to:</string>
+    <string name="select_currency_btn">SELECT CURRENCY</string>
+    <string name="convert_btn">CONVERT!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="settings_header">Settings</string>
+    <string name="settings_select_from_label">Select Convert From:</string>
+    <string name="settings_select_to_label">Select Convert To:</string>
+    <string name="settings_return_btn">RETURN</string>
+
+    <string-array name="currencies_array">
+        <item>EURO</item>
+        <item>MXN</item>
+        <item>USD</item>
+    </string-array>
+</resources>
