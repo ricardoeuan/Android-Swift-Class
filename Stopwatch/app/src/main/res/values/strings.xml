@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="resume">RESUME</string>
+    <string name="lap">LAP</string>
+</resources>
