@@ -13,15 +13,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private int milli = 0;
     private boolean running;
     private boolean wasRunning;
+    private boolean wasPaused;
 
-    private List<String> lapList;
+    private ArrayList<String> lapList;
     private ArrayAdapter<String> lapListAdapter;
 
     private TextView timerView;
@@ -40,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
             milli = savedInstanceState.getInt("milli");
             running = savedInstanceState.getBoolean("running");
             wasRunning = savedInstanceState.getBoolean("wasRunning");
+            wasPaused = savedInstanceState.getBoolean("wasPaused");
+            lapList = savedInstanceState.getStringArrayList("laps");
+        } else {
+            wasRunning = false;
+            wasPaused = false;
+            lapList = new ArrayList<>();
         }
         controlLinearLayout = (LinearLayout) findViewById(R.id.control_layout);
         startBtn = (Button) findViewById(R.id.start_button);
@@ -47,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         resumeBtn = (Button) findViewById(R.id.resume_btn);
         lapBtn = (Button) findViewById(R.id.lap_button);
         lapListView = (ListView) findViewById(R.id.lap_list);
-        lapList = new ArrayList<>();
         lapListAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, lapList);
         lapListView.setAdapter(lapListAdapter);
         runTimer();
@@ -65,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         if(wasRunning) {
             running = true;
+            setRunningUI();
+        } else if(wasPaused) {
+            setRunningUI();
         }
     }
 
@@ -73,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
         savedInstanceState.putInt("milli", milli);
         savedInstanceState.putBoolean("running", running);
         savedInstanceState.putBoolean("wasRunning", wasRunning);
+        savedInstanceState.putBoolean("wasPaused", wasPaused);
+        savedInstanceState.putStringArrayList("laps", lapList);
     }
 
     @Override
@@ -99,34 +109,45 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickStart(View view) {
         running = true;
+        setRunningUI();
+    }
+
+    public void onClickStop(View view) {
+        running = false;
+        wasPaused = true;
+        switchStopResume();
+    }
+
+    public void OnClickResume(View view) {
+        running = true;
+        wasPaused = false;
+        switchStopResume();
+    }
+
+    public void onClickReset(View view) {
+        running = false;
+        wasPaused = false;
+        milli = 0;
+        resetUI();
+    }
+
+    public void onClickLap(View view) {
+        lapList.add(timerView.getText().toString());
+        lapListAdapter.notifyDataSetChanged();
+    }
+
+    private void setRunningUI() {
         switchStopResume();
         startBtn.setVisibility(View.GONE);
         controlLinearLayout.setVisibility(View.VISIBLE);
         lapBtn.setVisibility(View.VISIBLE);
     }
 
-    public void onClickStop(View view) {
-        running = false;
-        switchStopResume();
-    }
-
-    public void OnClickResume(View view) {
-        running = true;
-        switchStopResume();
-    }
-
-    public void onClickReset(View view) {
+    private void resetUI() {
         controlLinearLayout.setVisibility(View.GONE);
         lapBtn.setVisibility(View.GONE);
         startBtn.setVisibility(View.VISIBLE);
         lapListAdapter.clear();
-        lapListAdapter.notifyDataSetChanged();
-        running = false;
-        milli = 0;
-    }
-
-    public void onClickLap(View view) {
-        lapList.add(timerView.getText().toString());
         lapListAdapter.notifyDataSetChanged();
     }
 
