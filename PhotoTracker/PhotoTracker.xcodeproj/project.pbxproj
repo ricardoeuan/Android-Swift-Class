@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CEBA21A1C8024BC00731FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA2191C8024BC00731FBE /* AppDelegate.swift */; };
+		8CEBA21C1C8024BC00731FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA21B1C8024BC00731FBE /* ViewController.swift */; };
+		8CEBA21F1C8024BC00731FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA21D1C8024BC00731FBE /* Main.storyboard */; };
+		8CEBA2211C8024BC00731FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA2201C8024BC00731FBE /* Assets.xcassets */; };
+		8CEBA2241C8024BC00731FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA2221C8024BC00731FBE /* LaunchScreen.storyboard */; };
+		8CEBA22F1C8024BD00731FBE /* PhotoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA22E1C8024BD00731FBE /* PhotoTrackerTests.swift */; };
+		8CEBA23A1C8024BD00731FBE /* PhotoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA2391C8024BD00731FBE /* PhotoTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CEBA22B1C8024BC00731FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CEBA20E1C8024BC00731FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEBA2151C8024BC00731FBE;
+			remoteInfo = PhotoTracker;
+		};
+		8CEBA2361C8024BD00731FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CEBA20E1C8024BC00731FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEBA2151C8024BC00731FBE;
+			remoteInfo = PhotoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CEBA2161C8024BC00731FBE /* PhotoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEBA2191C8024BC00731FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CEBA21B1C8024BC00731FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CEBA21E1C8024BC00731FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CEBA2201C8024BC00731FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CEBA2231C8024BC00731FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CEBA2251C8024BC00731FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEBA22A1C8024BC00731FBE /* PhotoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEBA22E1C8024BD00731FBE /* PhotoTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTrackerTests.swift; sourceTree = "<group>"; };
+		8CEBA2301C8024BD00731FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEBA2351C8024BD00731FBE /* PhotoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEBA2391C8024BD00731FBE /* PhotoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTrackerUITests.swift; sourceTree = "<group>"; };
+		8CEBA23B1C8024BD00731FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CEBA2131C8024BC00731FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEBA2271C8024BC00731FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEBA2321C8024BD00731FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CEBA20D1C8024BC00731FBE = {
+			isa = PBXGroup;
+			children = (
+				8CEBA2181C8024BC00731FBE /* PhotoTracker */,
+				8CEBA22D1C8024BD00731FBE /* PhotoTrackerTests */,
+				8CEBA2381C8024BD00731FBE /* PhotoTrackerUITests */,
+				8CEBA2171C8024BC00731FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CEBA2171C8024BC00731FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CEBA2161C8024BC00731FBE /* PhotoTracker.app */,
+				8CEBA22A1C8024BC00731FBE /* PhotoTrackerTests.xctest */,
+				8CEBA2351C8024BD00731FBE /* PhotoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CEBA2181C8024BC00731FBE /* PhotoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				8CEBA2191C8024BC00731FBE /* AppDelegate.swift */,
+				8CEBA21B1C8024BC00731FBE /* ViewController.swift */,
+				8CEBA21D1C8024BC00731FBE /* Main.storyboard */,
+				8CEBA2201C8024BC00731FBE /* Assets.xcassets */,
+				8CEBA2221C8024BC00731FBE /* LaunchScreen.storyboard */,
+				8CEBA2251C8024BC00731FBE /* Info.plist */,
+			);
+			path = PhotoTracker;
+			sourceTree = "<group>";
+		};
+		8CEBA22D1C8024BD00731FBE /* PhotoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CEBA22E1C8024BD00731FBE /* PhotoTrackerTests.swift */,
+				8CEBA2301C8024BD00731FBE /* Info.plist */,
+			);
+			path = PhotoTrackerTests;
+			sourceTree = "<group>";
+		};
+		8CEBA2381C8024BD00731FBE /* PhotoTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CEBA2391C8024BD00731FBE /* PhotoTrackerUITests.swift */,
+				8CEBA23B1C8024BD00731FBE /* Info.plist */,
+			);
+			path = PhotoTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CEBA2151C8024BC00731FBE /* PhotoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEBA23E1C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTracker" */;
+			buildPhases = (
+				8CEBA2121C8024BC00731FBE /* Sources */,
+				8CEBA2131C8024BC00731FBE /* Frameworks */,
+				8CEBA2141C8024BC00731FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTracker;
+			productName = PhotoTracker;
+			productReference = 8CEBA2161C8024BC00731FBE /* PhotoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CEBA2291C8024BC00731FBE /* PhotoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEBA2411C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTrackerTests" */;
+			buildPhases = (
+				8CEBA2261C8024BC00731FBE /* Sources */,
+				8CEBA2271C8024BC00731FBE /* Frameworks */,
+				8CEBA2281C8024BC00731FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CEBA22C1C8024BC00731FBE /* PBXTargetDependency */,
+			);
+			name = PhotoTrackerTests;
+			productName = PhotoTrackerTests;
+			productReference = 8CEBA22A1C8024BC00731FBE /* PhotoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CEBA2341C8024BD00731FBE /* PhotoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEBA2441C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTrackerUITests" */;
+			buildPhases = (
+				8CEBA2311C8024BD00731FBE /* Sources */,
+				8CEBA2321C8024BD00731FBE /* Frameworks */,
+				8CEBA2331C8024BD00731FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CEBA2371C8024BD00731FBE /* PBXTargetDependency */,
+			);
+			name = PhotoTrackerUITests;
+			productName = PhotoTrackerUITests;
+			productReference = 8CEBA2351C8024BD00731FBE /* PhotoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CEBA20E1C8024BC00731FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ricardo Euán";
+				TargetAttributes = {
+					8CEBA2151C8024BC00731FBE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8CEBA2291C8024BC00731FBE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8CEBA2151C8024BC00731FBE;
+					};
+					8CEBA2341C8024BD00731FBE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8CEBA2151C8024BC00731FBE;
+					};
+				};
+			};
+			buildConfigurationList = 8CEBA2111C8024BC00731FBE /* Build configuration list for PBXProject "PhotoTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CEBA20D1C8024BC00731FBE;
+			productRefGroup = 8CEBA2171C8024BC00731FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CEBA2151C8024BC00731FBE /* PhotoTracker */,
+				8CEBA2291C8024BC00731FBE /* PhotoTrackerTests */,
+				8CEBA2341C8024BD00731FBE /* PhotoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CEBA2141C8024BC00731FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEBA2241C8024BC00731FBE /* LaunchScreen.storyboard in Resources */,
+				8CEBA2211C8024BC00731FBE /* Assets.xcassets in Resources */,
+				8CEBA21F1C8024BC00731FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEBA2281C8024BC00731FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEBA2331C8024BD00731FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CEBA2121C8024BC00731FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEBA21C1C8024BC00731FBE /* ViewController.swift in Sources */,
+				8CEBA21A1C8024BC00731FBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEBA2261C8024BC00731FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEBA22F1C8024BD00731FBE /* PhotoTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEBA2311C8024BD00731FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEBA23A1C8024BD00731FBE /* PhotoTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CEBA22C1C8024BC00731FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CEBA2151C8024BC00731FBE /* PhotoTracker */;
+			targetProxy = 8CEBA22B1C8024BC00731FBE /* PBXContainerItemProxy */;
+		};
+		8CEBA2371C8024BD00731FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CEBA2151C8024BC00731FBE /* PhotoTracker */;
+			targetProxy = 8CEBA2361C8024BD00731FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CEBA21D1C8024BC00731FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CEBA21E1C8024BC00731FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CEBA2221C8024BC00731FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CEBA2231C8024BC00731FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CEBA23C1C8024BD00731FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CEBA23D1C8024BD00731FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CEBA23F1C8024BD00731FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CEBA2401C8024BD00731FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CEBA2421C8024BD00731FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoTracker.app/PhotoTracker";
+			};
+			name = Debug;
+		};
+		8CEBA2431C8024BD00731FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoTracker.app/PhotoTracker";
+			};
+			name = Release;
+		};
+		8CEBA2451C8024BD00731FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoTracker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8CEBA2461C8024BD00731FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoTracker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CEBA2111C8024BC00731FBE /* Build configuration list for PBXProject "PhotoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEBA23C1C8024BD00731FBE /* Debug */,
+				8CEBA23D1C8024BD00731FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEBA23E1C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEBA23F1C8024BD00731FBE /* Debug */,
+				8CEBA2401C8024BD00731FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CEBA2411C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEBA2421C8024BD00731FBE /* Debug */,
+				8CEBA2431C8024BD00731FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CEBA2441C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEBA2451C8024BD00731FBE /* Debug */,
+				8CEBA2461C8024BD00731FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CEBA20E1C8024BC00731FBE /* Project object */;
+}
