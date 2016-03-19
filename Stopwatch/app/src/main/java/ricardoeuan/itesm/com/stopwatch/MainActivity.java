@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
                 if (running) {
                     milli++;
                 }
-                handler.postDelayed(this, 10);
+                handler.postDelayed(this, 1);
             }
         });
     }

@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F06092F1C931E9C0093AA9D /* MomentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F06092E1C931E9C0093AA9D /* MomentTableViewCell.swift */; };
+		7F0609311C9328840093AA9D /* MomentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0609301C9328840093AA9D /* MomentTableViewController.swift */; };
+		7F95707F1C92905B00C6D73B /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95707E1C92905B00C6D73B /* Moment.swift */; };
+		7F9570801C92905B00C6D73B /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95707E1C92905B00C6D73B /* Moment.swift */; };
+		8C719E341C81A059004FF79B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C719E331C81A059004FF79B /* RatingControl.swift */; };
 		8CEBA21A1C8024BC00731FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA2191C8024BC00731FBE /* AppDelegate.swift */; };
-		8CEBA21C1C8024BC00731FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA21B1C8024BC00731FBE /* ViewController.swift */; };
+		8CEBA21C1C8024BC00731FBE /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA21B1C8024BC00731FBE /* MomentViewController.swift */; };
 		8CEBA21F1C8024BC00731FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA21D1C8024BC00731FBE /* Main.storyboard */; };
 		8CEBA2211C8024BC00731FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA2201C8024BC00731FBE /* Assets.xcassets */; };
 		8CEBA2241C8024BC00731FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA2221C8024BC00731FBE /* LaunchScreen.storyboard */; };
@@ -34,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F06092E1C931E9C0093AA9D /* MomentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentTableViewCell.swift; sourceTree = "<group>"; };
+		7F0609301C9328840093AA9D /* MomentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentTableViewController.swift; sourceTree = "<group>"; };
+		7F95707E1C92905B00C6D73B /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		8C719E331C81A059004FF79B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		8CEBA2161C8024BC00731FBE /* PhotoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEBA2191C8024BC00731FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CEBA21B1C8024BC00731FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CEBA21B1C8024BC00731FBE /* MomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewController.swift; sourceTree = "<group>"; };
 		8CEBA21E1C8024BC00731FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CEBA2201C8024BC00731FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEBA2231C8024BC00731FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				8CEBA2191C8024BC00731FBE /* AppDelegate.swift */,
-				8CEBA21B1C8024BC00731FBE /* ViewController.swift */,
+				8CEBA21B1C8024BC00731FBE /* MomentViewController.swift */,
+				7F95707E1C92905B00C6D73B /* Moment.swift */,
+				8C719E331C81A059004FF79B /* RatingControl.swift */,
 				8CEBA21D1C8024BC00731FBE /* Main.storyboard */,
+				7F0609301C9328840093AA9D /* MomentTableViewController.swift */,
+				7F06092E1C931E9C0093AA9D /* MomentTableViewCell.swift */,
 				8CEBA2201C8024BC00731FBE /* Assets.xcassets */,
 				8CEBA2221C8024BC00731FBE /* LaunchScreen.storyboard */,
 				8CEBA2251C8024BC00731FBE /* Info.plist */,
@@ -193,6 +206,7 @@
 				TargetAttributes = {
 					8CEBA2151C8024BC00731FBE = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S5KBBL55XF;
 					};
 					8CEBA2291C8024BC00731FBE = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEBA21C1C8024BC00731FBE /* ViewController.swift in Sources */,
+				7F06092F1C931E9C0093AA9D /* MomentTableViewCell.swift in Sources */,
+				8CEBA21C1C8024BC00731FBE /* MomentViewController.swift in Sources */,
+				8C719E341C81A059004FF79B /* RatingControl.swift in Sources */,
 				8CEBA21A1C8024BC00731FBE /* AppDelegate.swift in Sources */,
+				7F95707F1C92905B00C6D73B /* Moment.swift in Sources */,
+				7F0609311C9328840093AA9D /* MomentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CEBA22F1C8024BD00731FBE /* PhotoTrackerTests.swift in Sources */,
+				7F9570801C92905B00C6D73B /* Moment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricardoeuan.PhotoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +509,7 @@
 				8CEBA2401C8024BD00731FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CEBA2411C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +518,7 @@
 				8CEBA2431C8024BD00731FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CEBA2441C8024BD00731FBE /* Build configuration list for PBXNativeTarget "PhotoTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +527,7 @@
 				8CEBA2461C8024BD00731FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
